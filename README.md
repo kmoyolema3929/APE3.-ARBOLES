@@ -28,3 +28,50 @@ El repositorio contiene 5 ejercicios, cada uno debe ser hecho en c++ y java
 3. No es necesario modificar el método `main`. Este método ya contiene la construcción de un árbol de prueba y las impresiones necesarias para validar que su algoritmo funciona correctamente.
 4. Su objetivo es lograr que, al ejecutar el código, los resultados calculados coincidan con los resultados esperados impresos en la consola.
 
+### Carpetas y Archivos
+
+- **README.md**  
+- **informe.pdf**  
+- **Capturas/**  
+  - **C++/** → Ejercicio1.png, Ejercicio2.png, Ejercicio3.png, Ejercicio4.png, Ejercicio5.png  
+  - **Java/** → Ejercicio1.png, Ejercicio2.png, Ejercicio3.png, Ejercicio4.png, Ejercicio5.png  
+- **cpp/**  
+  - Ejercicio1_Basico.cpp  
+  - Ejercicio2_Binario.cpp  
+  - Ejercicio3_Binario.cpp  
+  - Ejercicio4_Recorridos.cpp  
+  - Ejercicio5_Transformacion.cpp  
+- **java/**  
+  - Ejercicio1_Basico.java  
+  - Ejercicio2_Binario.java  
+  - Ejercicio3_Binario2.java  
+  - RecorridoInOrder.java  
+  - Ejercicio5_Transformacion.java  
+
+## Ejercicios
+
+| Ejercicio | Descripción | Archivo C++ | Archivo Java |
+|-----------|-------------|-------------|--------------|
+| 1 | Conteo de nodos en árbol N-ario | Ejercicio1_Basico.cpp | Ejercicio1_Basico.java |
+| 2 | Inserción en BST | Ejercicio2_Binario.cpp | Ejercicio2_Binario.java |
+| 3 | Cálculo de altura | Ejercicio3_Binario.cpp | Ejercicio3_Binario2.java |
+| 4 | Recorrido In-Order | Ejercicio4_Recorridos.cpp | RecorridoInOrder.java |
+| 5 | Inversión de árbol | Ejercicio5_Transformacion.cpp | Ejercicio5_Transformacion.java |
+
+## Compilación y Ejecución
+
+```bash
+# C++ 
+# Compilar
+g++ Ejercicio1_Basico.cpp -o Ejercicio1.exe
+
+# Ejecutar
+./Ejercicio1.exe
+
+# Java
+# Compilar
+javac Ejercicio1_Basico.java
+
+# Ejecutar
+java Ejercicio1_Basico
+
